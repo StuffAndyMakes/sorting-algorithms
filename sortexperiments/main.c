@@ -38,7 +38,7 @@ int main(int argc, const char * argv[]) {
     printf("SORT ALGORITHM SPEED TEST\n");
     printf("Testing with array of %d ints.\n", arr_size);
 
-    printf("MERGE      Starting..."); fflush(stdout);
+    printf("MERGE      Running..."); fflush(stdout);
 
     time(&today);
 
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
 
     loadArrayWithRandomInts(arr, arr_size);
 
-    printf("QUICK      Starting..."); fflush(stdout);
+    printf("QUICK      Running..."); fflush(stdout);
 
     beginTime = clock();
     quickSort(arr, 0, arr_size - 1);  // quickSort(array, lowIndex, highIndex)
@@ -64,7 +64,7 @@ int main(int argc, const char * argv[]) {
 
     loadArrayWithRandomInts(arr, arr_size);
 
-    printf("SELECTION  Starting..."); fflush(stdout);
+    printf("SELECTION  Running..."); fflush(stdout);
 
     beginTime = clock();
     selectionSort(arr, arr_size);  // selectionSort(array, numElements)
@@ -76,7 +76,7 @@ int main(int argc, const char * argv[]) {
 
     loadArrayWithRandomInts(arr, arr_size);
 
-    printf("INSERTION  Starting..."); fflush(stdout);
+    printf("INSERTION  Running..."); fflush(stdout);
 
     beginTime = clock();
     insertionSort(arr, arr_size);  // insertionSort(array, numElements)
@@ -88,7 +88,7 @@ int main(int argc, const char * argv[]) {
 
     loadArrayWithRandomInts(arr, arr_size);
 
-    printf("BUBBLE     Starting..."); fflush(stdout);
+    printf("BUBBLE     Running..."); fflush(stdout);
 
     beginTime = clock();
     bubbleSort(arr, arr_size);  // bubbleSort(array, numElements)

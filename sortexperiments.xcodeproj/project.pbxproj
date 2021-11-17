@@ -43,6 +43,7 @@
 		672692D027442B6700BD53FC /* insertionsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insertionsort.c; sourceTree = "<group>"; };
 		672692D227442D3100BD53FC /* bubblesort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubblesort.h; sourceTree = "<group>"; };
 		672692D327442D3100BD53FC /* bubblesort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubblesort.c; sourceTree = "<group>"; };
+		672692D52744377800BD53FC /* Products */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Products; path = "../../../../Xcode DerivedData/sortexperiments-cqkvbtczhvwozeaeeviulakbtyhr/Build/Products"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				672692BB27441E9D00BD53FC /* sortexperiments */,
+				672692D52744377800BD53FC /* Products */,
 				672692BA27441E9D00BD53FC /* Products */,
 			);
 			sourceTree = "<group>";
